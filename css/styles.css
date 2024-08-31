@@ -37,11 +37,6 @@ img {
   display: block;
 }
 
-.container {
-  max-width: 1158px;
-  margin: 0 auto;
-}
-
 h1 {
   font-weight: 700;
   font-size: 56px;
@@ -76,6 +71,11 @@ p {
 }
 
 .header {
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
 }
 
 .header-flex {
@@ -267,6 +267,8 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-top: 16px;
 }
 .footer-color {
   color: #f4f4fd;
@@ -277,6 +279,5 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 16px;
   max-width: 264px;
 }
